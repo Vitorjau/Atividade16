@@ -1,7 +1,11 @@
-public class carro{
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-            System.out.println("ola mundo");
+public class Carro{
+
+    Veiculos veiculo = new Veiculos();
+
+    carro = veiculo;
+
+    public int getAutomovel() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAutomovel'");
     }
 }
