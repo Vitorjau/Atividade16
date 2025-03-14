@@ -1,8 +1,13 @@
 public class Moto {
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i);
-        }
+
+    Carro carro = new Carro();
+    Veiculos veiculo = new Veiculos();
+
+    moto = carro;
+    
+    public int getAutomovel() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAutomovel'");
     }
     
 }
