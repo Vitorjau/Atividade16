@@ -6,7 +6,8 @@ public class Main{
         Carro carro = new Carro();
         
         int automovel = 0;
-    
+
+
             for (int i = 0; i < 10; i++) {
                 System.out.println(i);
     
