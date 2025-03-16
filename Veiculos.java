@@ -3,10 +3,13 @@ public class Veiculos {
     String modelo;
     String cor;
     int ano;
+    int rodas;
 
-    public int getAutomovel() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getAutomovel'");
+    public Veiculos(String marca, String modelo, String cor, int ano, int rodas) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.cor = cor;
+        this.ano = ano;
+        this.rodas = rodas;
     }
-    
 }
